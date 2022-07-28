@@ -1,11 +1,14 @@
-
-        <!---------- Corpo do Blog --------->
-        <section>
+ <!---------- Corpo do Blog --------->
+ <section>
             <div class="container">
                 <div class="timeline-posts">
                 <?php foreach ($posts as $post): ?>
                     <div class="post">
-                        <h2><?= $post['title']?></h2>
+                    <div class = "edit-trash">
+                            <h2><?= $post['title']?></h2>
+                            <div class="edit" ><i class="fa fa-pencil" aria-hidden="true"></i></div>
+                            <div class="trash" ><i class="fa fa-trash" aria-hidden="true"></i></div>
+                        </div>
                         <div class="date">
                             <?= $post['date']?>
                         </div>
