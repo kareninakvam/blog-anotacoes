@@ -87,6 +87,7 @@ hr{
 .menu-admin{
     background-color: rgb(255, 142, 160);
     padding: 20px;
+    
 }
 
 .menu-admin a{
@@ -94,6 +95,7 @@ hr{
     text-decoration: none;
     font-size: 13px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 35px;
 }
 
 
@@ -106,4 +108,19 @@ hr{
     font-size: large; 
     padding: 5px;
     margin-left: 2px;
+}
+
+
+.about-title{
+    color: rgb(255, 142, 160);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-text{
+    text-align: justify;
+    margin-right: 80px;
+    margin-left: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

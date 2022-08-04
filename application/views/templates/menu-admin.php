@@ -2,5 +2,8 @@
         <a href="#">
             ALTERAR SENHA 
         </a>
-    </div>
+        <a href="http://localhost/projetos/CI/blog-anotacoes/posts/new">
+           NOVO POST 
+        </a>
+</div>
     

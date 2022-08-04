@@ -4,17 +4,17 @@
         <!---------- Barra de navegação --------->
         <div class="nav-bar-blog">
             <div class="nav-bar-link">
-                <a href="#">
+                <a href="http://localhost/projetos/CI/blog-anotacoes/">
                   HOME  
                 </a>
             </div>
             <div class="nav-bar-link">
-                <a href="#">
+                <a href="http://localhost/projetos/CI/blog-anotacoes/home/about">
                   SOBRE MIM   
                 </a>
             </div>
             <div class="nav-bar-link">
-                <a href="#">
+                <a href="http://localhost/projetos/CI/blog-anotacoes/home/contact">
                   CONTATO 
                 </a>
             </div>

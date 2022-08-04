@@ -5,7 +5,7 @@ class Dashboard extends CI_Controller {
 
 	public function index()
 	{	
-		$data['title'] = "Estudos e Anotações - Dashboard";
+		$data['title'] = "Dashboard - Estudos e Anotações";
 			
 		$this->load->model("posts_model");
         $data['posts'] = $this-> posts_model-> index();

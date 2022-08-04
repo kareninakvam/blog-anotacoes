@@ -6,9 +6,9 @@
                     <div class="post">
                     <div class = "edit-trash">
                             <h2><?= $post['title']?></h2>
-                            <div class="edit" ><i class="fa fa-pencil" aria-hidden="true"></i></div>
-                            <div class="trash" ><i class="fa fa-trash" aria-hidden="true"></i></div>
-                        </div>
+                            <div class="edit" ><a href="http://localhost/projetos/CI/blog-anotacoes/posts/edit/<?= $post['id']?>"><i class="fa fa-pencil" aria-hidden="true"></i></a></div>
+                            <div class="trash" > <a href="http://localhost/projetos/CI/blog-anotacoes/posts/delete/<?= $post['id']?>"><i class="fa fa-trash" aria-hidden="true"></i></a></div>
+                    </div>
                         <div class="date">
                             <?= $post['date']?>
                         </div>
